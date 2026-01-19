@@ -29,4 +29,9 @@ public class StudentModel {
     public void setEmail(String email) {
         this.email = email;
     }
+    public StudentModel(int id,String name,String email){
+        setEmail(email);
+        setId(id);
+        setName(name);
+    }
 }
